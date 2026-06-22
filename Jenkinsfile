@@ -10,7 +10,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
         DOCKER_IMAGE = "pushkarkumbharepk18/demo-app"
         IMAGE_TAG = "${BUILD_NUMBER}"
-        APP_SERVER_IP = "107.22.118.78"
+        APP_SERVER_IP = "32.194.68.14"
     }
 
     stages {
